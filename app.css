@@ -99,10 +99,29 @@ nav {
     align-items: center;
 }
 
-/* #search-bar {
-    flex-basis: 30%;
+#search-bar {
+    background-color: #1a282c;
+    flex-basis: 35%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-self: stretch;
+    justify-content: space-between;
+    border-radius: 20px 20px 20px 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 0px 5px;
 }
 
 #search-query {
-    width: 100%;
-} */
+    background-color: transparent;
+    font-weight: 100;
+    border: none;
+    font-size: 0.85rem;
+    flex-grow: 1;
+    color: #f1f4f5;
+}
